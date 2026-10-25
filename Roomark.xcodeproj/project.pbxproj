@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	"archiveVersion" = "1";
+	"classes" = {
+
+	};
+	"objectVersion" = "77";
+	"objects" = {
+		"A00000000000000000000001" = {
+			"isa" = "PBXProject";
+			"attributes" = {
+				"BuildIndependentTargetsInParallel" = "YES";
+				"LastUpgradeCheck" = "2710";
+				"TargetAttributes" = {
+					"A00000000000000000000010" = {
+						"CreatedOnToolsVersion" = "27.1";
+					};
+					"A00000000000000000000011" = {
+						"CreatedOnToolsVersion" = "27.1";
+						"TestTargetID" = "A00000000000000000000010";
+					};
+				};
+			};
+			"buildConfigurationList" = "A00000000000000000000020";
+			"compatibilityVersion" = "Xcode 16.0";
+			"developmentRegion" = "zh-Hans";
+			"hasScannedForEncodings" = "0";
+			"knownRegions" = ("zh-Hans", "en", "Base",);
+			"mainGroup" = "A00000000000000000000002";
+			"productRefGroup" = "A00000000000000000000005";
+			"projectDirPath" = "";
+			"projectRoot" = "";
+			"targets" = ("A00000000000000000000010", "A00000000000000000000011",);
+		};
+		"A00000000000000000000002" = {
+			"isa" = "PBXGroup";
+			"children" = ("A00000000000000000000003", "A00000000000000000000004", "A00000000000000000000006", "A00000000000000000000005",);
+			"sourceTree" = "<group>";
+		};
+		"A00000000000000000000003" = {
+			"isa" = "PBXFileSystemSynchronizedRootGroup";
+			"path" = "Roomark";
+			"sourceTree" = "<group>";
+		};
+		"A00000000000000000000004" = {
+			"isa" = "PBXFileSystemSynchronizedRootGroup";
+			"path" = "RoomarkTests";
+			"sourceTree" = "<group>";
+		};
+		"A00000000000000000000005" = {
+			"isa" = "PBXGroup";
+			"name" = "Products";
+			"children" = ("A00000000000000000000012", "A00000000000000000000013",);
+			"sourceTree" = "<group>";
+		};
+		"A00000000000000000000006" = {
+			"isa" = "PBXGroup";
+			"path" = "Configuration";
+			"children" = ("A00000000000000000000030", "A00000000000000000000031", "A00000000000000000000032",);
+			"sourceTree" = "<group>";
+		};
+		"A00000000000000000000030" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.xcconfig";
+			"path" = "Base.xcconfig";
+			"sourceTree" = "<group>";
+		};
+		"A00000000000000000000031" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.xcconfig";
+			"path" = "Debug.xcconfig";
+			"sourceTree" = "<group>";
+		};
+		"A00000000000000000000032" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.xcconfig";
+			"path" = "Release.xcconfig";
+			"sourceTree" = "<group>";
+		};
+		"A00000000000000000000012" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.application";
+			"includeInIndex" = "0";
+			"path" = "Roomark.app";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"A00000000000000000000013" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.cfbundle";
+			"includeInIndex" = "0";
+			"path" = "RoomarkTests.xctest";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"A00000000000000000000010" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "A00000000000000000000040";
+			"buildPhases" = ("A00000000000000000000041", "A00000000000000000000042", "A00000000000000000000043",);
+			"buildRules" = ();
+			"dependencies" = ();
+			"fileSystemSynchronizedGroups" = ("A00000000000000000000003",);
+			"name" = "Roomark";
+			"productName" = "Roomark";
+			"productReference" = "A00000000000000000000012";
+			"productType" = "com.apple.product-type.application";
+		};
+		"A00000000000000000000041" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = ();
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"A00000000000000000000042" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = ();
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"A00000000000000000000043" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = ();
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"A00000000000000000000040" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ("A00000000000000000000044", "A00000000000000000000045",);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"A00000000000000000000044" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "local.roomark.Roomark";
+				"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)", "@executable_path/../Frameworks",);
+				"ENABLE_APP_SANDBOX" = "NO";
+				"ENABLE_HARDENED_RUNTIME" = "YES";
+				"INFOPLIST_KEY_CFBundleDisplayName" = "Roomark";
+				"INFOPLIST_KEY_LSApplicationCategoryType" = "public.app-category.utilities";
+				"SWIFT_EMIT_LOC_STRINGS" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"A00000000000000000000045" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "local.roomark.Roomark";
+				"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)", "@executable_path/../Frameworks",);
+				"ENABLE_APP_SANDBOX" = "NO";
+				"ENABLE_HARDENED_RUNTIME" = "YES";
+				"INFOPLIST_KEY_CFBundleDisplayName" = "Roomark";
+				"INFOPLIST_KEY_LSApplicationCategoryType" = "public.app-category.utilities";
+				"SWIFT_EMIT_LOC_STRINGS" = "YES";
+			};
+			"name" = "Release";
+		};
+		"A00000000000000000000011" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "A00000000000000000000050";
+			"buildPhases" = ("A00000000000000000000051", "A00000000000000000000052", "A00000000000000000000053",);
+			"buildRules" = ();
+			"dependencies" = ("A00000000000000000000060",);
+			"fileSystemSynchronizedGroups" = ("A00000000000000000000004",);
+			"name" = "RoomarkTests";
+			"productName" = "RoomarkTests";
+			"productReference" = "A00000000000000000000013";
+			"productType" = "com.apple.product-type.bundle.unit-test";
+		};
+		"A00000000000000000000051" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = ();
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"A00000000000000000000052" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = ();
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"A00000000000000000000053" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = ();
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"A00000000000000000000050" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ("A00000000000000000000054", "A00000000000000000000055",);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"A00000000000000000000054" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "local.roomark.RoomarkTests";
+				"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)", "@loader_path/../Frameworks", "@executable_path/../Frameworks",);
+				"BUNDLE_LOADER" = "$(TEST_HOST)";
+				"TEST_HOST" = "$(BUILT_PRODUCTS_DIR)/Roomark.app/Contents/MacOS/Roomark";
+			};
+			"name" = "Debug";
+		};
+		"A00000000000000000000055" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "local.roomark.RoomarkTests";
+				"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)", "@loader_path/../Frameworks", "@executable_path/../Frameworks",);
+				"BUNDLE_LOADER" = "$(TEST_HOST)";
+				"TEST_HOST" = "$(BUILT_PRODUCTS_DIR)/Roomark.app/Contents/MacOS/Roomark";
+			};
+			"name" = "Release";
+		};
+		"A00000000000000000000060" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "A00000000000000000000010";
+			"targetProxy" = "A00000000000000000000061";
+		};
+		"A00000000000000000000061" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "A00000000000000000000001";
+			"proxyType" = "1";
+			"remoteGlobalIDString" = "A00000000000000000000010";
+			"remoteInfo" = "Roomark";
+		};
+		"A00000000000000000000020" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ("A00000000000000000000021", "A00000000000000000000022",);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"A00000000000000000000021" = {
+			"isa" = "XCBuildConfiguration";
+			"baseConfigurationReference" = "A00000000000000000000031";
+			"buildSettings" = {
+
+			};
+			"name" = "Debug";
+		};
+		"A00000000000000000000022" = {
+			"isa" = "XCBuildConfiguration";
+			"baseConfigurationReference" = "A00000000000000000000032";
+			"buildSettings" = {
+
+			};
+			"name" = "Release";
+		};
+	};
+	"rootObject" = "A00000000000000000000001";
+}
